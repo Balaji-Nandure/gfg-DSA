@@ -23,7 +23,7 @@ public class TrailingZerosInFacorial {
     // find number of 2s and 5s in the range > no need to calc 2s > only calc 5s
     // n/5 + n/25 + n/125 ...
 
-    // tc = (1) , sc = (1)
+    // tc = o(log(n)) , sc = o(1)
     public static int countZeros1(int n) {
         int zeros = 0;
         for (int i = 5; i <= n; i = i * 5) {
