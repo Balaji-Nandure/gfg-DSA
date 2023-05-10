@@ -1,7 +1,7 @@
 // check if kth bit is set or not
 public class KthBit {
     // in this method we are using bitmask
-    public static void KthBit(int n, int k) {
+    public static void kthBit(int n, int k) {
         int bitMask = 1 << (k - 1);
         if ((n & bitMask) == 1) {
             System.out.println("1");
